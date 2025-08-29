@@ -11,24 +11,19 @@
 
 .coin,
 .love-react {
-  border-radius: 50px;
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
-.coin {
-padding : 12px 20px;
-}
-.love-react {
-  padding: 10px 30px;
-}
-
 
 .copy-btn {
-padding: 12px 36px 12px 36px;
-border-radius: 50px;
   font-family: "Inter", sans-serif;
 }
 
 .banner {
-background: linear-gradient(90.00deg, rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),rgba(0, 103, 71, 1) 50%,rgba(1, 50, 35, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(1.251827359199524, 49.64006805419922, 34.606834411621094, 1),
+    rgba(0, 103, 71, 1) 50%,
+    rgba(1, 50, 35, 1) 100%
+  );
   font-family: "Hind Madurai", sans-serif;
 }
