@@ -35,16 +35,19 @@
         <div class="flex gap-[20px] items-center flex-wrap justify-center">
           <div
             class="flex bg-[#41ff6b1a] items-center text-center gap-2 love-react px-[30px] py-[10px] rounded-[50px]">
-            <p class="font-[900] text-[17px]"><span class=""> 0 </span></p>
+            <p class="font-[900] text-[17px]">
+              <span class="" id="heart-count"> 0 </span>
+            </p>
             <img src="assets/heart.png" alt="" class="h-[30px] w-[30px]" />
           </div>
           <div
             class="coin flex bg-[#41ff6b1a] items-center gap-2 py-[12px] px-[20px] rounded-[50px]">
-            <p class="font-[900]"><span>100</span></p>
+            <p class="font-[900]"><span id="coin-count">100</span></p>
             <img src="assets/coin.png" alt="" class="h-[24px] w-[24px]" />
           </div>
           <div>
             <button
+              id="copy-count-btn"
               class="bg-[#00a63e] text-white font-[600] text-center copy-btn rounded-[50px] px-[36px] py-[12px]">
               2 Copy
             </button>
