@@ -27,3 +27,8 @@
   );
   font-family: "Hind Madurai", sans-serif;
 }
+
+.fa-heart:hover {
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}

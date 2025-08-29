@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function addCallToHistory(name, num) {
     const timeOptions = {
+
       hour: "2-digit",
       minute: "2-digit",
       second: "2-digit",
@@ -21,9 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
     newEntry.innerHTML = `
         <div>
             <p class="font-semibold text-gray-700">${name}</p>
-            <p class="text-sm text-gray-500">${num}</p>
+            <p class="text-sm font-bold text-gray-500">${num}</p>
         </div>
-        <p class="text-xs text-gray-400">${time}</p>
+        <p class="text-xs font-bold text-gray-600">${time}</p>
     `;
 
     historyList.appendChild(newEntry);
