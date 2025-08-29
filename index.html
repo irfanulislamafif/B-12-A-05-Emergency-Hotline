@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency Hot Line</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
       rel="stylesheet"
@@ -16,35 +16,42 @@
       integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+      
   </head>
   <body>
     <header>
-      <nav>
-        <div class="nav-left">
-          <img src="assets/logo.png" alt="" />
-          <p>Emergency Service</p>
+      <nav class="md:flex justify-between  items-center text-center my-4  max-w-[1450px] mx-auto">
+        <div class="md:nav-left flex text-center gap-1">
+          <img src="assets/logo.png" alt="" class="h-[50px] w-[50px] mr-1" />
+          <p class="text-[#006747] font-[800] text-center items-center">Emergency <br>Service</p>
         </div>
-        <div class="nav-right">
-          <div>
-            <p><span class="love-react"> 0 </span></p>
-            <img src="assets/heart.png" alt="" />
+        <div class="md:nav-right flex gap-[20px] items-center">
+          <div class="flex bg-[#41ff6b1a] items-center text-center gap-2 love-react">
+            <p  class="font-[900] text-[17px]"> <span class=""> 0 </span></p>
+            <img src="assets/heart.png" alt="" class="h-[30px] w-[30px]"/>
           </div>
-          <div>
-            <p>100</p>
-            <img src="assets/coin.png" alt="" />
+          <div class="coin flex  bg-[#41ff6b1a] items-center gap-2"> 
+            <p class="font-[900]"> <span>100</span></p>
+            <img src="assets/coin.png" alt="" class="h-[24px] w-[24px]"/>
           </div>
-          <div>
-            <button>2 Copy</button>
-          </div>
+          
+            <button class=" bg-[#00a63e] text-white font-[600] text-center copy-btn">2 Copy</button>
+         
         </div>
       </nav>
-      <section class="banner">
-        <img src="assets/logo-dark.png" alt="" />
-        <h1>Emergency Service Directory</h1>
-        <p>
+      <section class="banner flex justify-center items-center px-14 py-5">
+        <div>
+          <div class="flex justify-center mb-3">
+        <img src="assets/logo-dark.png" alt="" class="  h-[92px] w-[92px]"/></div>
+        <h1 class="banner-title   text-center text-white font-[700] text-4xl mb-[11px]">Emergency Service Directory</h1>
+        <p class="text-center  text-white font-[600] text-xl">
           Government Emergency Services at Your Fingertip – A Project by
           Government of the People’s Republic of Bangladesh
         </p>
+        </div>
       </section>
     </header>
     <main>
