@@ -441,19 +441,20 @@
           </div>
 
           <div
-            class="bg-white shadow-sm shadow-gray-500 w-full lg:w-1/4 p-4 rounded-lg">
-            <div
-              class="flex flex-col sm:flex-row lg:flex-col justify-between items-center gap-4 mx-6">
+            class="bg-white shadow-sm shadow-gray-500 w-full lg:w-1/4 p-6 rounded-lg">
+            <div class="flex justify-between items-center mb-6">
               <p class="text-xl flex items-center gap-2">
-                <i class="fa-regular fa-clock text-gray-500"></i
-                ><span class="font-bold ml-2">Call History</span>
+                <i class="fa-regular fa-clock text-gray-500"></i>
+                <span class="font-bold">Call History</span>
               </p>
               <button
-                class="bg-[#00a63e] text-white font-[600] text-center copy-btn rounded-[50px] px-[36px] py-[12px] w-full sm:w-auto lg:w-full">
+                id="clear-history-btn"
+                class="bg-[#00a63e] text-white font-semibold rounded-[50px] px-[36px] py-[12px] text-sm">
                 Clear
               </button>
-              <div></div>
             </div>
+
+            <div id="history-container" class="space-y-4"></div>
           </div>
         </section>
       </section>
